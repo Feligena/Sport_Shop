@@ -64,3 +64,4 @@ CREATE TRIGGER check_amount_employees
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Добавление продавца запрещено';
     END IF;
 
+
